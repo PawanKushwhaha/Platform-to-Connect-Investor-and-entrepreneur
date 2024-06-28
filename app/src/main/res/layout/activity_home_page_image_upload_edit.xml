@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_page_image_upload_edit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_marginEnd="@dimen/_5sdp"
+           android:layout_marginStart="@dimen/_5sdp"
+           android:id="@+id/uploads_images"
+           android:layout_height="@dimen/_200sdp"
+           android:src="@drawable/upload_images_icon"
+           />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_9sdp"
+
+            android:text="upload Images"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_marginTop="@dimen/_9sdp"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:hint="Compliments"
+            android:id="@+id/compliments"
+
+            android:textSize="@dimen/_15sdp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:id="@+id/upload_btn"
+            android:textSize="@dimen/_20sdp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

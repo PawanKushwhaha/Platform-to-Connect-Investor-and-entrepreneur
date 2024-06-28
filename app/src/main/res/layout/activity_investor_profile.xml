@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".investor.investor_profile">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/slogan"
+        android:id="@+id/slogan"
+        />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:layout_below="@id/slogan"
+    />
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/investor_profile_image"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="left"
+            app:civ_border_width="2dp"
+            android:layout_marginStart="23sp"
+            app:civ_border_color="#FF000000"/>
+
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_28sdp"
+            android:id="@+id/investor_first_name"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+/>   <TextView
+           android:layout_marginStart="@dimen/_5sdp"
+           android:layout_marginEnd="@dimen/_6sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:id="@+id/investor_last_name"
+        android:textSize="@dimen/_28sdp"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        /></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your details"
+                android:id="@+id/investor_about"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:textSize="@dimen/_19sdp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website links"
+                android:id="@+id/investor_website_link"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website links"
+                android:id="@+id/company_name"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website links"
+                android:id="@+id/company_details"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

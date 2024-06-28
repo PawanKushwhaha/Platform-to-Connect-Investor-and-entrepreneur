@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+    tools:context=".investor.investor_edit_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_15sdp"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="@dimen/_25sdp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/investor_profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+<!--        <TextView-->
+<!--            android:layout_marginTop="@dimen/_5sdp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Collage Logo"-->
+<!--            android:textSize="@dimen/_15sdp"-->
+<!--            android:layout_gravity="center"-->
+<!--/>-->
+
+
+
+        <TextView
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:text="Collage Info:"/>
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:hint="Collage Name* "
+        android:id="@+id/investor_firstname"
+        android:textSize="@dimen/_19sdp"
+        />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="University Name*"
+            android:id="@+id/investor_lastname"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textSize="@dimen/_19sdp"
+            />
+
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter About You *"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:id="@+id/investor_about"
+
+            android:textSize="@dimen/_19sdp"
+        />
+
+        <TextView
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:text="Placement Info:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_19sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:id="@+id/company_name"
+
+            android:hint="Highest Placement"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_19sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+
+            android:id="@+id/company_details"
+
+            android:hint="Average Placement"/>
+
+        <TextView
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"
+
+            android:text="Contact Info: "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Contact Info"
+            android:layout_marginBottom="@dimen/_10sdp"
+
+            android:id="@+id/investor_contact"
+            android:textSize="@dimen/_19sdp"
+/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Website Link"
+            android:layout_marginBottom="@dimen/_20sdp"
+
+            android:id="@+id/investor_website_link"
+            android:textSize="@dimen/_19sdp"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SAVE"
+    android:textSize="@dimen/_25sdp"
+    android:layout_marginStart="@dimen/_40sdp"
+    android:layout_marginEnd="@dimen/_40sdp"
+    android:textAlignment="center"
+android:textColor="@color/black"
+    android:textStyle="bold"
+    android:id="@+id/investor_save"
+    android:background="@android:color/holo_blue_dark"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

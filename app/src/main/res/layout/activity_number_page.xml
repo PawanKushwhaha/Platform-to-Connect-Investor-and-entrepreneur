@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3fff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="-206dp"
+        tools:layout_editor_absoluteY="-49dp">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20sp"-->
+<!--            android:background="@drawable/circle"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Pro-Out"-->
+<!--            android:textColor="@color/black" />-->
+
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+
+            android:background="@drawable/custombutton"
+            android:gravity="center"
+            android:hint="Enter Your Phone Number"
+            android:inputType="number"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingLeft="2sp"
+            android:paddingRight="2sp"
+            android:textColorHint="#ffffff" />
+
+
+<!--                <EditText-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_width="250dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:hint="Your OTP"-->
+<!--                    android:id="@+id/password"-->
+<!--                    android:textColorHint="#FFFBF6"-->
+<!--                    android:layout_marginBottom="5sp"-->
+<!--                    android:background="@drawable/custombutton"/>-->
+
+        <Button
+            android:id="@+id/get_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custombutton2"
+            android:text="GET OTP"
+
+            android:textAllCaps="false"
+            android:textColor="#FFFBF6" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in or sign up to continue..."
+            android:textAlignment="center"
+            android:layout_marginTop="25sp"
+
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#3fff" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/login_bk"-->
+<!--    >-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="@dimen/_115sdp"-->
+<!--        android:layout_marginBottom="@dimen/_85sdp"-->
+<!--        android:padding="@dimen/_26sdp"-->
+
+<!--        >-->
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/phone_number"-->
+<!--            android:layout_marginStart="@dimen/_15sdp"-->
+<!--            android:layout_marginEnd="@dimen/_15sdp"-->
+<!--            android:hint="Enter Your Phone Number"-->
+
+<!--            android:padding="@dimen/_8sdp"-->
+<!--            -->
+
+<!--            android:textColor="@color/black"-->
+<!--            android:background="@android:color/darker_gray"-->
+<!--            android:outlineSpotShadowColor="@color/black"-->
+<!--            android:textSize="@dimen/_19sdp"-->
+<!--            android:layout_marginBottom="@dimen/_17sdp"/>-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="@dimen/_23sdp"-->
+<!--            android:id="@+id/get_otp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="GET OTP"/>-->
+
+<!--    </LinearLayout>-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
