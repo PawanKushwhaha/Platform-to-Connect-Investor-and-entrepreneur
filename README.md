@@ -1,4 +1,4 @@
-Platform to Connect Investor and Entrepreneur.
+Platform to Connect Investor and Entrepreneur .
 
 Overview :-
 
